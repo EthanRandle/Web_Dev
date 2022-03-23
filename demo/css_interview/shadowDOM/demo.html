@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="demo.js"></script>
+</head>
+<body>
+<h3>Welcome</h3>
+<div id = "shadowHost">
+    <span id = "child"> this is not part of shadow DOM</span>
+</div>
+<template id = "news-widget">
+    <style type="text/css">
+        h3{
+            color: green;
+        }
+    </style>
+    <h3>News widget</h3>
+</template>
+</body>
+</html>
